@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import { Divider, Toolbar, Typography, withStyles } from '@material-ui/core';
 
 import NavigationMenu from './NavigationMenu';
-import { version } from '../../../lib/package.json';
+import { version } from '../../../package.json';
 
 const DrawerMenu = ({ classes }) => (
   <div className={classes.drawerRoot}>
